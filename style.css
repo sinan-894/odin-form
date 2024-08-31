@@ -7,3 +7,34 @@ body{
     width: 30vw;
     height: 100vh;
 }
+
+label{
+    display: block;
+   
+}
+
+.row{
+    display: flex;
+    gap:40px;
+}
+fieldset{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.content-side{
+    padding-left: 30px;
+}
+
+.caption{
+    padding-top: 100px;
+}
+
+.login{
+    background-color: #f2f2f2;
+}
+
+input{
+    background-color: #f2f2f2;
+}
