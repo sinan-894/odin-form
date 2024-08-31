@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    margin: 0px 0px;
+}
+
+.bg-image{
+    width: 30vw;
+    height: 100vh;
+}
