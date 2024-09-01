@@ -83,11 +83,14 @@ input{
     background-color: #f2f2f2;
     border: 1px solid #E5E7EB;
     margin-bottom: var(--margin-top-bottom);
+    width: 200px;
+    height: 1.5rem;
+    border-radius: 5px;
 }
 
 input:focus{
     border-color:blue;
-    
+    box-shadow:0px 0px 1px 1px black;
     outline: none ;
 }
 
@@ -97,4 +100,10 @@ input:invalid{
 button{
     background-color:#596D48;
     margin:var(--margin-top-bottom) 0px ;
+    width: 150px;
+    height: 2rem;
+    border-radius: 5px;
+    border:0px;
+    color: #E5E7EB;
+    font-weight: 700;
 }
