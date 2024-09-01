@@ -1,13 +1,45 @@
+@font-face {
+    font-family: odin-font;
+    src: url("Norse-Bold.otf");
+}
+:root{
+    --padding-content: 30px;
+    --margin-top-bottom:20px;
+}
+
 body{
     display: flex;
     margin: 0px 0px;
+    
 }
-
-.bg-image{
-    width: 30vw;
+.logo-side{
+    width:100vw;
     height: 100vh;
+    background-image: url('photo-1585202900225-6d3ac20a6962.avif');
+    background-size: cover;
+    
+    
 }
 
+
+.logo{
+    background-color: rgb(0 0 0 / 50%);
+    color: white;
+    font-size: 5rem;
+    position: relative;
+    top: 30vh;
+    display: flex;
+    font-family: odin-font;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.bg-logo{
+    width: 3rem;
+
+}
 label{
     display: block;
    
@@ -24,17 +56,45 @@ fieldset{
 }
 
 .content-side{
-    padding-left: 30px;
+    font-size: 13px;
 }
 
 .caption{
     padding-top: 100px;
+    padding-left: var(--padding-content);
+    padding-right: var(--padding-content);
+    font-weight: 900;
+    margin-bottom: 60px;
+    font-size: 1.2em;
 }
-
+.head-lets{
+    font-size: 1.2em;
+    margin:var(--margin-top-bottom) 0px;
+}
 .login{
     background-color: #f2f2f2;
+    padding-left: var(--padding-content);
+}
+.submit{
+    padding-left: var(--padding-content);
 }
 
 input{
     background-color: #f2f2f2;
+    border: 1px solid #E5E7EB;
+    margin-bottom: var(--margin-top-bottom);
+}
+
+input:focus{
+    border-color:blue;
+    
+    outline: none ;
+}
+
+input:invalid{
+    border-color:red
+}
+button{
+    background-color:#596D48;
+    margin:var(--margin-top-bottom) 0px ;
 }
